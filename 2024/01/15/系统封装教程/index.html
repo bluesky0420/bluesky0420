@@ -1,0 +1,542 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="Bluesky0420 - 技术探索与分享" href="http://example.com/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="Bluesky0420 - 技术探索与分享" href="http://example.com/atom.xml" />
+<link rel="alternate" type="application/json" title="Bluesky0420 - 技术探索与分享" href="http://example.com/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="Hexo,博客" />
+
+
+<link rel="canonical" href="http://example.com/2024/01/15/%E7%B3%BB%E7%BB%9F%E5%B0%81%E8%A3%85%E6%95%99%E7%A8%8B/">
+
+
+
+  <title>
+系统封装教程 - 技术 |
+Yume Shoka = Bluesky0420 - 技术探索与分享 = 深入技术栈，开拓智慧天空</title>
+<meta name="generator" content="Hexo 7.0.0"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">系统封装教程
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="创建时间：2024-01-15 00:00:00">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">发表于</span>
+    <time itemprop="dateCreated datePublished" datetime="2024-01-15T00:00:00+08:00">2024-01-15</time>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="切换导航栏">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">Yume Shoka</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeuv80yoj20zk0m8kjl.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclga70tsj20zk0m84mr.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicli3sbvtj20zk0m8x6p.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicljitigmj20zk0m87fp.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclx6phq6j20zk0m8e36.jpg"></li>
+          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipeun65urj20zk0m81ii.jpg"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">首页</a></span><i class="ic i-angle-right"></i>
+<span  class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="item" rel="index" title="分类于 技术"><span itemprop="name">技术</span></a>
+<meta itemprop="position" content="1" /></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="zh-CN">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/15/%E7%B3%BB%E7%BB%9F%E5%B0%81%E8%A3%85%E6%95%99%E7%A8%8B/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="bluesky0420">
+    <meta itemprop="description" content="深入技术栈，开拓智慧天空, 欢迎来到我的个人博客！这个博客是我的个人空间，我在这里分享笔记、探索开源世界以及分享我的技术见解。我希望通过这个博客与大家一起交流、学习和成长。">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Bluesky0420 - 技术探索与分享">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <ol>
+<li><p>使用Ntlite、dism++等工具制作母盘镜像（提取官方镜像中的wim文件，对系统组件、驱动、服务等进行个性化设置，建议保留安全防护程序Windows Defender）</p>
+</li>
+<li><p>安装VMware workstation（准备部署封装环境）</p>
+</li>
+<li><p>VM中创建虚拟机（普通装机流程，只保留必要硬件，添加PE镜像作为启动设备，开启共享文件夹，设置引导模式为BIOS）</p>
+</li>
+<li><p>设置BIOS（关闭不必要的IO设备，设置启动项）</p>
+</li>
+<li><p>开启虚拟机进入PE，安装VMtools，对硬盘进行分区，将需要安装的镜像和软件拷贝到数据盘（安装VMtools后才能打开共享文件夹，共享文件夹中存放需要安装的系统和软件，分区分为系统盘+数据盘大小根据实际需求，这样就创建了一个基础的安装系统的环境，这个时候可以创建一个快照以便后续安装其他系统，且不互相影响）–创建快照</p>
+</li>
+<li><p>正式安装系统（将系统安装到分区好的系统盘） –创建快照</p>
+</li>
+<li><p>重启虚拟机进入安装系统的OOBE环境，不需要安装VMtools（系统最初的环境）–创建快照</p>
+</li>
+<li><p>激活系统、更新系统、打补丁、根据硬件安装驱动程序（使系统变得更加稳定可靠，一般如无特殊需求直接在联网状态下使用Windows自带的系统更新功能即可，如果系统跨版本更新可能会比较耗时且可能会重启几次，如果系统出现兼容性问题就需要针对出现问题的硬件设备到官网下载对应的官方驱动进行安装）–创建快照</p>
+</li>
+<li><p>[[系统基础设置]]（按照自己的喜好对系统的设置项、资源管理器、账号、主机名等进行设置，也可以借助dism++等工具对系统进行深入设置，以便调整成自己易于使用的状态）–创建快照</p>
+</li>
+<li><p>[[系统高级设置]]（根据自己的实际需求对系统组策略、服务、注册表、防火墙、计划任务、系统配置、控制面板、Windows工具、系统备份、系统更新等进行个性化设置）–创建快照</p>
+</li>
+<li><p>应用程序处理（包括不必要软件的卸载，必要软件的安装、更新、设置，特殊软件的环境变量设置、数据同步，系统可选功能的安装，Windows功能的开启和关闭，桌面图标排列顺序、排列规则调整，任务栏排列顺序调整，并且将所有安装的程序添加到开始菜单，建议就将所有程序安装在系统盘C盘Program files或者Program files(X86)目录下）–创建快照</p>
+</li>
+<li><p>系统优化（优化开机启动项、禁用不必要的服务、调整虚拟内存、配置电源选项、视觉效果设置、后台进程管理）–创建快照</p>
+</li>
+<li><p>系统清理（临时文件清理、磁盘空间清理、磁盘碎片文件整理、注册表清理、垃圾文件清理、空文件夹清理、无用文件及文件夹手动清理、使用dism++空间回收功能清理空间、使用软媒清理大师等其他第三方工具清理垃圾文件）–创建快照</p>
+</li>
+<li><p>在本机运行Easy Sysprep工具，进行第一次封装（确定系统信息是否正确、可以选择一键封装或者设置后封装，封装失败则回退到先前创建的快照重新封装排查出现文件的节点，修改后再次执行封装）–创建快照</p>
+</li>
+<li><p>第一次封装成功后重启电脑进入到PE，运行Easy Sysprep工具进行第二次封装（切记一定要进入到PE中才能进行第二次封装，第二次封装时Easy Sysprep工具的设置项和第一次会有所不同，按照自己的实际需求设置即可）–创建快照</p>
+</li>
+<li><p>转到步骤5初始环境的快照安装封装好的系统，测试是否运行正常</p>
+</li>
+<li><p>在实体机上安装封装好的系统，测试是否运行正常</p>
+</li>
+<li><p>建议按条目记录下所有的操作记录，并分类整理汇总成操作手册，以便下一次直接按照手册执行提高效率减少时间的浪费，并在执行过程中不断完善操作手册</p>
+</li>
+</ol>
+<p><strong>【封装过程中遇到的问题】</strong>：</p>
+<ol>
+<li><p>封装前卸载DevToys、ShellBandizip、powertoys、remove-appxpackage -package 45479liulios.17062D84F7C46_2.8.801.0_x64__p7pnf6hceqser -allusers，否则会导致封装失败.</p>
+</li>
+<li><p>封装失败时可以通过查询日志来分析封装失败的原因，针对性的解决问题，一般来说都是由于一些程序包导致的，通过日志文件查询引起错误的程序包，通过工具卸载或者<code>remove-appxpackage -package &lt;package-fullname&gt; -allusers</code>的方式卸载。</p>
+</li>
+</ol>
+<p><strong>【参考文章】</strong>：<span class="exturl" data-url="aHR0cHM6Ly93d3cuaXRzay5jb20vdGhyZWFkLzQwMTE0MA==">大白狗的封装札记</span></p>
+
+      <div class="tags">
+          <a href="/tags/Hexo/" rel="tag"><i class="ic i-tag"></i> Hexo</a>
+          <a href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag"><i class="ic i-tag"></i> 博客</a>
+      </div>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">更新于</span>
+    <time title="修改时间：2024-01-15 23:25:26" itemprop="dateModified" datetime="2024-01-15T23:25:26+08:00">2024-01-15</time>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> 赞赏</button>
+  <p>请我喝[茶]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="bluesky0420 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/alipay.png" alt="bluesky0420 支付宝">
+        <p>支付宝</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/paypal.png" alt="bluesky0420 贝宝">
+        <p>贝宝</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>本文作者： </strong>bluesky0420 <i class="ic i-at"><em>@</em></i>Bluesky0420 - 技术探索与分享
+  </li>
+  <li class="link">
+    <strong>本文链接：</strong>
+    <a href="http://example.com/2024/01/15/%E7%B3%BB%E7%BB%9F%E5%B0%81%E8%A3%85%E6%95%99%E7%A8%8B/" title="系统封装教程">http://example.com/2024/01/15/系统封装教程/</a>
+  </li>
+  <li class="license">
+    <strong>版权声明： </strong>本站所有文章除特别声明外，均采用 <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2024/01/15/%E7%B3%BB%E7%BB%9F%E9%AB%98%E7%BA%A7%E8%AE%BE%E7%BD%AE/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipetv6p75j20zk0m8x6p.jpg" title="系统高级设置">
+  <span class="type">上一篇</span>
+  <span class="category"><i class="ic i-flag"></i> 技术</span>
+  <h3>系统高级设置</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+      
+
+  <a href="/2024/01/15/%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E7%BD%AE/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gicm07ih54j20zk0m84qp.jpg" title="系统基础设置">
+  <span class="type">下一篇</span>
+  <span class="category"><i class="ic i-flag"></i> 技术</span>
+  <h3>系统基础设置</h3>
+  </a>
+
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="文章目录">
+      </div>
+      <div class="related panel pjax" data-title="系列文章">
+        <ul>
+          <li><a href="/2024/01/15/Arch%20Linux/" rel="bookmark" title="Arch Linux">Arch Linux</a></li><li><a href="/2024/01/15/Google%20chrome%E6%B5%8F%E8%A7%88%E5%99%A8%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/" rel="bookmark" title="Google chrome浏览器快捷方式">Google chrome浏览器快捷方式</a></li><li><a href="/2024/01/15/Hexo+GitHub%20Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="bookmark" title="Hexo+GitHub Page搭建个人博客">Hexo+GitHub Page搭建个人博客</a></li><li><a href="/2024/01/15/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="bookmark" title="Hexo搭建个人博客">Hexo搭建个人博客</a></li><li><a href="/2024/01/15/Markdown%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" rel="bookmark" title="Markdown使用技巧">Markdown使用技巧</a></li><li><a href="/2024/01/15/Linux%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8/" rel="bookmark" title="Linux基础使用">Linux基础使用</a></li><li><a href="/2024/01/15/Obsidian%E7%AC%94%E8%AE%B0%E5%A4%87%E4%BB%BD%E6%96%B9%E6%A1%88/" rel="bookmark" title="Obsidian笔记备份方案">Obsidian笔记备份方案</a></li><li><a href="/2024/01/15/VSCode%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" rel="bookmark" title="VSCode使用技巧">VSCode使用技巧</a></li><li><a href="/2024/01/15/Windows10%20%E5%BF%AB%E6%8D%B7%E9%94%AE/" rel="bookmark" title="Windows10 快捷键">Windows10 快捷键</a></li><li><a href="/2024/01/15/bash%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/" rel="bookmark" title="bash快捷方式">bash快捷方式</a></li><li><a href="/2024/01/15/%E4%BD%BF%E7%94%A8GitHub%20Pages%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5/" rel="bookmark" title="使用GitHub Pages创建个人网页">使用GitHub Pages创建个人网页</a></li><li><a href="/2024/01/15/%E7%A3%81%E7%9B%98%E6%95%B0%E6%8D%AE%E5%AE%B9%E7%81%BE%E5%A4%87%E4%BB%BD/" rel="bookmark" title="磁盘数据容灾备份">磁盘数据容灾备份</a></li><li><a href="/2024/01/15/%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E7%BD%AE/" rel="bookmark" title="系统基础设置">系统基础设置</a></li><li class="active"><a href="/2024/01/15/%E7%B3%BB%E7%BB%9F%E5%B0%81%E8%A3%85%E6%95%99%E7%A8%8B/" rel="bookmark" title="系统封装教程">系统封装教程</a></li><li><a href="/2024/01/15/%E7%B3%BB%E7%BB%9F%E9%AB%98%E7%BA%A7%E8%AE%BE%E7%BD%AE/" rel="bookmark" title="系统高级设置">系统高级设置</a></li><li><a href="/2024/01/15/%E7%BD%91%E7%BB%9C/" rel="bookmark" title="网络">网络</a></li><li><a href="/2024/01/15/%E9%87%8D%E5%A4%8D%E6%80%A7%E5%B7%A5%E4%BD%9C/" rel="bookmark" title="重复性工作">重复性工作</a></li>
+        </ul>
+      </div>
+      <div class="overview panel" data-title="站点概览">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="bluesky0420"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">bluesky0420</p>
+  <div class="description" itemprop="description">欢迎来到我的个人博客！这个博客是我的个人空间，我在这里分享笔记、探索开源世界以及分享我的技术见解。我希望通过这个博客与大家一起交流、学习和成长。</div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">17</span>
+        <span class="name">文章</span>
+      </a>
+    </div>
+    <div class="item categories">
+      <a href="/categories/">
+        <span class="count">1</span>
+        <span class="name">分类</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">2</span>
+        <span class="name">标签</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>首页</a>
+  </li>
+
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+        <a href="/2024/01/15/%E7%B3%BB%E7%BB%9F%E9%AB%98%E7%BA%A7%E8%AE%BE%E7%BD%AE/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a>
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+        <a href="/2024/01/15/%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80%E8%AE%BE%E7%BD%AE/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a>
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>随机文章</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/%E7%BD%91%E7%BB%9C/" title="网络">网络</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/Windows10%20%E5%BF%AB%E6%8D%B7%E9%94%AE/" title="Windows10 快捷键">Windows10 快捷键</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/Obsidian%E7%AC%94%E8%AE%B0%E5%A4%87%E4%BB%BD%E6%96%B9%E6%A1%88/" title="Obsidian笔记备份方案">Obsidian笔记备份方案</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/bash%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F/" title="bash快捷方式">bash快捷方式</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/%E7%A3%81%E7%9B%98%E6%95%B0%E6%8D%AE%E5%AE%B9%E7%81%BE%E5%A4%87%E4%BB%BD/" title="磁盘数据容灾备份">磁盘数据容灾备份</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/Hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="Hexo搭建个人博客">Hexo搭建个人博客</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/Hexo+GitHub%20Page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" title="Hexo+GitHub Page搭建个人博客">Hexo+GitHub Page搭建个人博客</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/Markdown%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/" title="Markdown使用技巧">Markdown使用技巧</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/%E4%BD%BF%E7%94%A8GitHub%20Pages%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5/" title="使用GitHub Pages创建个人网页">使用GitHub Pages创建个人网页</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+<a href="/categories/%E6%8A%80%E6%9C%AF/" title="分类于 技术">技术</a>
+</div>
+
+    <span><a href="/2024/01/15/%E7%B3%BB%E7%BB%9F%E5%B0%81%E8%A3%85%E6%95%99%E7%A8%8B/" title="系统封装教程">系统封装教程</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>最新评论</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">bluesky0420 @ Yume Shoka</span>
+  </div>
+  <div class="powered-by">
+    基于 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2024/01/15/系统封装教程/',
+    favicon: {
+      show: "（●´3｀●）やれやれだぜ",
+      hide: "(´Д｀)大変だ！"
+    },
+    search : {
+      placeholder: "文章搜索",
+      empty: "关于 「 ${query} 」，什么也没搜到",
+      stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    valine: true,fancybox: true,
+    copyright: '复制成功，转载请遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 协议。',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
