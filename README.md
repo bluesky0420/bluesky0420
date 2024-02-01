@@ -68,7 +68,7 @@ Here are some ideas to get you started:
         日常分享
       </td>
       <td width="25%" align="center">
-        <a href="https://bluesky0420.github.io/about/">About</a>
+        <a href="https://bluesky0420.github.io/about/">关于我</a>
         <br><br><br>
         个人简介
       </td>
