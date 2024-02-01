@@ -44,7 +44,7 @@ Here are some ideas to get you started:
   <img align="right" src="https://github-profile-trophy.vercel.app/?username=bluesky0420&theme=tokyonight" width="50%">
 </div>
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="450"/>
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
 
 - 🔭 大家好，我是bluesky0420.
 - 🤔 非常欢迎你来访问我的GitHub.
