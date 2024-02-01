@@ -16,35 +16,32 @@ Here are some ideas to get you started:
 -->
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bluesky0420&count_private=true&show_icons=true&theme=tokyonight&line_height=27" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bluesky0420&theme=tokyonight" width="48%">
+  <img src="https://github-readme-stats.vercel.app/api?username=bluesky0420&count_private=true&show_icons=true&theme=tokyonight&line_height=27">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bluesky0420&theme=tokyonight">
 </div>
 
 <div align="center">
-  <a href="https://github.com/bluesky0420/picx-image-hosting" style="margin-right: 2%">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picx-image-hosting&theme=tokyonight" width="48%">
+  <a href="https://github.com/bluesky0420/picx-image-hosting">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picx-image-hosting&theme=tokyonight" />
   </a>
   <a href="https://github.com/bluesky0420/hexo-blog-comments">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=hexo-blog-comments&theme=tokyonight" width="48%">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=hexo-blog-comments&theme=tokyonight" />
   </a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/bluesky0420/bluesky0420.github.io" style="margin-right: 2%">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=bluesky0420.github.io&theme=tokyonight" width="48%">
+  <a href="https://github.com/bluesky0420/bluesky0420.github.io">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=bluesky0420.github.io&theme=tokyonight" />
   </a>
   <a href="https://github.com/bluesky0420/picgo-image-hosting">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picgo-image-hosting&theme=tokyonight" width="48%">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picgo-image-hosting&theme=tokyonight" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bluesky0420&theme=vue" width="48%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bluesky0420&theme=vue">
 </div>
 
 <div align="center">
-  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=bluesky0420&theme=tokyonight" width="48%">
-  <img align="right" src="https://github-profile-trophy.vercel.app/?username=bluesky0420&theme=tokyonight" width="48%">
+  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=bluesky0420&theme=tokyonight" width="45%">
+  <img align="right" src="https://github-profile-trophy.vercel.app/?username=bluesky0420&theme=tokyonight" width="50%">
 </div>
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
@@ -71,7 +68,7 @@ Here are some ideas to get you started:
         日常分享
       </td>
       <td width="25%" align="center">
-        <a href="https://bluesky0420.github.io/about/">About Me</a>
+        <a href="https://bluesky0420.github.io/about/">About</a>
         <br><br><br>
         个人简介
       </td>
@@ -85,5 +82,5 @@ Here are some ideas to get you started:
 </table>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=bluesky0420" width="48%">
+  <img src="https://komarev.com/ghpvc/?username=bluesky0420">
 </div>
