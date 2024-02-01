@@ -44,9 +44,6 @@ Here are some ideas to get you started:
   <img align="right" src="https://github-profile-trophy.vercel.app/?username=bluesky0420&theme=tokyonight" width="50%">
 </div>
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
-
-
 - 🔭 大家好，我是bluesky0420.
 - 🤔 非常欢迎你来访问我的GitHub.
 - 🎓 尽管这里可能并没有你需要的项目.
@@ -54,6 +51,8 @@ Here are some ideas to get you started:
 - 🌱 既然已经来了，请不要吝啬你手里的Star.
 - ✍️ Fork到自己的仓库，否则你可能会失去它.
 - ☕ 既然来了，就是你我有缘，联系我交朋友.
+
+<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
 
 <table>
   <tbody>
