@@ -15,75 +15,52 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bluesky0420&count_private=true&show_icons=true&theme=tokyonight&line_height=27">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bluesky0420&theme=tokyonight">
-</div>
+# Hi there, I'm bluesky0420! 👋
 
-<div align="center" style="margin-top: 20px;">
-  <a href="https://github.com/bluesky0420/picx-image-hosting" style="margin-right: 2%">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picx-image-hosting&theme=tokyonight" width="45%">
-  </a>
-  <a href="https://github.com/bluesky0420/hexo-blog-comments">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=hexo-blog-comments&theme=tokyonight" width="45%">
-  </a>
-</div>
+Welcome to my GitHub profile! I'm passionate about coding, exploring new technologies, and sharing my knowledge with the community.
 
-<div align="center" style="margin-top: 20px;">
-  <a href="https://github.com/bluesky0420/bluesky0420.github.io" style="margin-right: 2%">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=bluesky0420.github.io&theme=tokyonight" width="45%">
-  </a>
-  <a href="https://github.com/bluesky0420/picgo-image-hosting">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picgo-image-hosting&theme=tokyonight" width="45%">
-  </a>
-</div>
+## 🚀 About Me
 
-<div align="center" style="margin-top: 20px;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bluesky0420&theme=vue" width="80%">
-</div>
+- 🔭 I'm currently working on exciting projects that challenge and inspire me.
+- 🌱 I'm continuously learning and growing to stay at the forefront of technology.
+- 👯 I enjoy collaborating with other developers to create innovative solutions.
+- 💬 Ask me about anything related to coding, and I'll be happy to help!
 
-<div align="center" style="margin-top: 20px;">
-  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=bluesky0420&theme=tokyonight" width="45%">
-  <img align="right" src="https://github-profile-trophy.vercel.app/?username=bluesky0420&theme=tokyonight" width="45%">
-</div>
+## 📊 GitHub Stats
 
-<img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bluesky0420&count_private=true&show_icons=true&theme=tokyonight&line_height=27)
 
-- 🔭 大家好，我是bluesky0420.
-- 🤔 非常欢迎你来访问我的GitHub.
-- 🎓 尽管这里可能并没有你需要的项目.
-- 💼 但是你的到来会使这里变得蓬荜生辉.
-- 🌱 既然已经来了，请不要吝啬你手里的Star.
-- ✍️ Fork到自己的仓库，否则你可能会失去它.
-- ☕ 既然来了，就是你我有缘，联系我交朋友.
+## 🔥 Featured Repositories
 
-<table style="margin-top: 20px;">
-  <tbody>
-    <tr valign="top">
-      <td width="25%" align="center">
-        <a href="https://bluesky0420.github.io">博客</a>
-        <br><br><br>
-        记录知识
-      </td>
-      <td width="25%" align="center">
-        <a href="https://space.bilibili.com/15610216">哔哩哔哩</a>
-        <br><br><br>
-        日常分享
-      </td>
-      <td width="25%" align="center">
-        <a href="https://bluesky0420.github.io/about/">关于我</a>
-        <br><br><br>
-        个人简介
-      </td>
-      <td width="25%" align="center">
-        <a href="mailto:bluesky.coder0420@gmail.com">联系我</a>
-        <br><br><br>
-        邮箱地址
-      </td>
-    </tr>
-  </tbody>
-</table>
+### [PicX Image Hosting](https://github.com/bluesky0420/picx-image-hosting)
 
-<div align="center" style="margin-top: 20px;">
-  <img src="https://komarev.com/ghpvc/?username=bluesky0420" width="45%">
-</div>
+A powerful and easy-to-use image hosting service with a focus on simplicity and performance.
+
+[![PicX Image Hosting](https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picx-image-hosting&theme=tokyonight)](https://github.com/bluesky0420/picx-image-hosting)
+
+### [Hexo Blog Comments](https://github.com/bluesky0420/hexo-blog-comments)
+
+A comment system for Hexo blogs, enhancing interaction with readers.
+
+[![Hexo Blog Comments](https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=hexo-blog-comments&theme=tokyonight)](https://github.com/bluesky0420/hexo-blog-comments)
+
+## 📈 GitHub Activity
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bluesky0420&theme=vue)
+
+## 🌟 GitHub Achievements
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=bluesky0420&theme=tokyonight)
+
+## 📝 Let's Connect!
+
+- [Visit my Blog](https://bluesky0420.github.io) 🌐
+- [Bilibili Channel](https://space.bilibili.com/15610216) 📺
+- [About Me](https://bluesky0420.github.io/about/) 📖
+- [Email Me](mailto:bluesky.coder0420@gmail.com) ✉️
+
+## 🤝 Let's Collaborate!
+
+Feel free to explore my repositories, star your favorite projects, and connect with me. I'm always open to exciting collaborations and making new friends in the coding community!
+
+![Profile Views](https://komarev.com/ghpvc/?username=bluesky0420)
