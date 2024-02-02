@@ -22,29 +22,29 @@ Here are some ideas to get you started:
 
 <div align="center" style="margin-top: 20px;">
   <a href="https://github.com/bluesky0420/picx-image-hosting" style="margin-right: 2%">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picx-image-hosting&theme=tokyonight" width="48%">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picx-image-hosting&theme=tokyonight" width="45%">
   </a>
   <a href="https://github.com/bluesky0420/hexo-blog-comments">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=hexo-blog-comments&theme=tokyonight" width="48%">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=hexo-blog-comments&theme=tokyonight" width="45%">
   </a>
 </div>
 
 <div align="center" style="margin-top: 20px;">
   <a href="https://github.com/bluesky0420/bluesky0420.github.io" style="margin-right: 2%">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=bluesky0420.github.io&theme=tokyonight" width="48%">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=bluesky0420.github.io&theme=tokyonight" width="45%">
   </a>
   <a href="https://github.com/bluesky0420/picgo-image-hosting">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picgo-image-hosting&theme=tokyonight" width="48%">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=bluesky0420&repo=picgo-image-hosting&theme=tokyonight" width="45%">
   </a>
 </div>
 
 <div align="center" style="margin-top: 20px;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bluesky0420&theme=vue" width="48%">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bluesky0420&theme=vue" width="80%">
 </div>
 
 <div align="center" style="margin-top: 20px;">
-  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=bluesky0420&theme=tokyonight" width="48%">
-  <img align="right" src="https://github-profile-trophy.vercel.app/?username=bluesky0420&theme=tokyonight" width="48%">
+  <img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=bluesky0420&theme=tokyonight" width="45%">
+  <img align="right" src="https://github-profile-trophy.vercel.app/?username=bluesky0420&theme=tokyonight" width="45%">
 </div>
 
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="500"/>
@@ -85,6 +85,5 @@ Here are some ideas to get you started:
 </table>
 
 <div align="center" style="margin-top: 20px;">
-  <img src="https://komarev.com/ghpvc/?username=bluesky0420" width="48%">
+  <img src="https://komarev.com/ghpvc/?username=bluesky0420" width="45%">
 </div>
-
